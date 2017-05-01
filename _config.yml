@@ -15,4 +15,4 @@ twitter_username: vaultin
 github_username:  vaultin
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet

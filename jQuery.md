@@ -1,6 +1,6 @@
 ---
 layout: page
-title: jQuery reference
+title: jQuery
 permalink: /jQuery/
 ---
 
@@ -40,7 +40,7 @@ its a convention to use a $ in front of variables that select a DOM object.
     $('.example-class').slideToggle(400); // slides elements in over 400 milliseconds in this example
 
 ## Events
-###on('click')
+### on('click')
 
     $('.example-class').on('click', function() {
       // execute the code here when .example-class is clicked.

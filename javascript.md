@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Javascript Reference
+title: Javascript
 permalink: /javascript/
 ---
 
 
-#Javascript reference
-##Basics:
-###Data types:
+# Javascript reference
+## Basics:
+### Data types:
 
 String -   grouping of words and/or numbers in single or double quotes.
 
@@ -16,7 +16,7 @@ Number -   any number including numbers with decimals.
 Boolean -  truth value, true or false.
 
 -----------------------------------------
-###Variables:
+### Variables:
 always begin with the 'var' keyword.
 
     var something = 'a variable'
@@ -25,12 +25,12 @@ you can also reassign variables.
 
     something = 'now its something else'
 
-###Escaping characters.
+### Escaping characters.
 characters in Javascript are escaped with a \
 
     console.log('You\'re classy')
 
-###Console functions:
+### Console functions:
 console.log()
 
     console.log('This is a test')
@@ -38,24 +38,24 @@ console.log()
     console.log('String with ', something)
     console.log('This' + ' is ' + 'a test')
 
-###Operators:
+### Operators:
 standard math operators, + - / * and % (modulus, remainder).
 
     console.log((31 * 4) + 10 - (42 / 3))
 
-###Modulus:
+### Modulus:
 returns the remainder from a division.
 
     console.log(31 % 2)
 this returns 1, 2 goes into 31, 15 times with a remainder of 1.
 
-###Interpolation:
+### Interpolation:
 put variables into strings.
 
     console.log('This is' + something + '!')
 
-##Control Flow:
-###If/Else:
+## Control Flow:
+### If/Else:
 When the if is true, run that code, otherwise run the else code.
 
     var needCoffee = true;
@@ -79,7 +79,7 @@ Code between curly braces are called blocks. if/else statements have two code bl
         console.log('Caution, unknown!');
       }
 
-###Comparison operators:
+### Comparison operators:
 here they are:
 
 + Less than: **<**
@@ -89,35 +89,35 @@ here they are:
 + Equal to each other: **===**
 + Not equal to each other: **!==**
 
-###Logical operators:
+### Logical operators:
 
 + Both must be true: **&&**
 + Either can be true: **||**
 + Make it opposite: **!**
 
 
-    var truth = true
+        var truth = true
 
-    if (!truth) {
-      console.log('This will not run.')
-    } else {
-      console.log('But this will run!')
-    }
+        if (!truth) {
+          console.log('This will not run.')
+          } else {
+          console.log('But this will run!')
+        }
 
-    /*  Truth table
+         /*  Truth table
 
-       true && true = true
-       true && false = false
-       false && true = false
-       false && false = false
+        true && true = true
+        true && false = false
+        false && true = false
+        false && false = false
 
-       true || true = true
-       true || false = true
-       false || true = true
-       false || false = false */
+        true || true = true
+        true || false = true
+        false || true = true
+        false || false = false */
 
 
-###Switch statement:
+### Switch statement:
 for many else if statements, use switch instead.
 
         var groceryItem = 'papaya';
@@ -137,15 +137,15 @@ for many else if statements, use switch instead.
                break;
              }
 
-##Functions
+## Functions
 
-###Declaring functions:
+### Declaring functions:
 
     function myName() {
       console.log('Test')
     }
 
-###Calling functions:
+### Calling functions:
 
     function myName() {
       console.log('Output')
@@ -153,7 +153,7 @@ for many else if statements, use switch instead.
 
     myName()
 
-###Variable scope:
+### Variable scope:
 
     var globalScope = 'This is global'
 
@@ -166,7 +166,7 @@ for many else if statements, use switch instead.
 
 
 ## Loops
-###For loop:
+### For loop:
 
     var vacationSpots = ['New York', 'Tokyo', 'Paris']
 
@@ -184,7 +184,7 @@ This loop could also go trough an array backwards, just set the counter variable
         console.log(vacationSpots[counter])
     }
 
-###While loop:
+### While loop:
 
 Loop while the argument is true.
 
